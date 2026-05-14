@@ -1,1 +1,13 @@
+ 
+    inteiro senha , contador = 0
 
+    enquanto(contador != 1){
+      escreva("\nDigite a senha: ")
+        leia(senha)
+      se(senha != 1234){
+        escreva("Senha incorreta. Tente novamente")
+      }senao{
+        escreva("Acesso permitido.") 
+        contador = contador + 1
+      }
+    }
