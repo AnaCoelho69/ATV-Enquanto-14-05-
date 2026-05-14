@@ -1,0 +1,7 @@
+   
+    inteiro alg = 0
+
+    enquanto(alg<5){
+      alg = alg + 1
+      escreva("\nAlgoritmo")
+    }
