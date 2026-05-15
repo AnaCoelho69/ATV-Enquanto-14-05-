@@ -1,0 +1,13 @@
+   inteiro numero , contador = 0 , somatotal = 0
+
+    enquanto(contador != 1){
+      escreva("Digite um número: ")
+        leia(numero)
+      se(numero != 0){
+        somatotal = somatotal + numero 
+      }senao{
+        contador = contador + 1
+        escreva("Finalizado.")
+      }
+    }
+    escreva("\nA soma total dos números é ",somatotal,".")
