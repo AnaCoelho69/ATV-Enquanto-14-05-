@@ -1,1 +1,16 @@
+    
+    inteiro numero , contador = 0 , maior = 0
 
+    enquanto(contador <5){
+      escreva("Digite um número: ")
+      leia(numero)
+      contador = contador + 1
+
+      se(maior==0){
+        maior = numero
+      }senao se(numero<maior){
+        maior!=numero
+      }senao{maior=numero}
+
+    }
+    escreva("\nO maior número digitado foi ",maior,".")
