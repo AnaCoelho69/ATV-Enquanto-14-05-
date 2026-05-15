@@ -1,1 +1,17 @@
+  
+    inteiro numero , contador = 0 , operacao , numpares = 0
+
+    enquanto(contador <10){
+      escreva("\nDigite um número: ")
+      leia(numero)
+      contador = contador + 1
+      operacao = numero % 2
+      
+      se(operacao == 0){
+        escreva("Este número é par.")
+        numpares = numpares + 1
+      }
+
+    }
+    escreva("\nForam digitados ",numpares," números pares.")
 
